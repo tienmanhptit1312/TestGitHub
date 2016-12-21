@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="audiencetest$sources_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20161215162510"/>
+	<dependencies>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.24" status="release" pubdate="20150508175540" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2412" time="0" location="/home/manh/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.24.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.24/mysql-connector-java-5.1.24.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="5.1.24" rev-constraint-default="5.1.24" rev-constraint-dynamic="5.1.24" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="no" details="" size="846263" time="0" location="/home/manh/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.24.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.24/mysql-connector-java-5.1.24.jar"/>
+					</artifact>
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="769037" time="0" location="/home/manh/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.24-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/mysql/mysql-connector-java/5.1.24/mysql-connector-java-5.1.24-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.spark" name="spark-streaming-kafka_2.10">
+			<revision name="1.3.1" status="release" pubdate="20150411114623" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
+				<metadata-artifact status="no" details="" size="39402" time="0" location="/home/manh/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.3.1/spark-streaming-kafka_2.10-1.3.1.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-streaming-kafka_2.10" type="jar" ext="jar" status="no" details="" size="210417" time="0" location="/home/manh/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/jars/spark-streaming-kafka_2.10-1.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming-kafka_2.10/1.3.1/spark-streaming-kafka_2.10-1.3.1.jar"/>
+					</artifact>
+					<artifact name="spark-streaming-kafka_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30542" time="0" location="/home/manh/.ivy2/cache/org.apache.spark/spark-streaming-kafka_2.10/srcs/spark-streaming-kafka_2.10-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-streaming-kafka_2.10/1.3.1/spark-streaming-kafka_2.10-1.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kafka" name="kafka_2.10">
+			<revision name="0.8.1.1" status="release" pubdate="20140423050035" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3699" time="0" location="/home/manh/.ivy2/cache/org.apache.kafka/kafka_2.10/ivy-0.8.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kafka/kafka_2.10/0.8.1.1/kafka_2.10-0.8.1.1.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="0.8.1.1" rev-constraint-default="0.8.1.1" rev-constraint-dynamic="0.8.1.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="kafka_2.10" type="jar" ext="jar" status="no" details="" size="3514920" time="0" location="/home/manh/.ivy2/cache/org.apache.kafka/kafka_2.10/jars/kafka_2.10-0.8.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kafka/kafka_2.10/0.8.1.1/kafka_2.10-0.8.1.1.jar"/>
+					</artifact>
+					<artifact name="kafka_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4505" time="0" location="/home/manh/.ivy2/cache/org.apache.kafka/kafka_2.10/srcs/kafka_2.10-0.8.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/kafka/kafka_2.10/0.8.1.1/kafka_2.10-0.8.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.101tec" name="zkclient">
+			<revision name="0.3" status="release" pubdate="20130529144028" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sgroschupf/zkclient" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3668" time="0" location="/home/manh/.ivy2/cache/com.101tec/zkclient/ivy-0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.3/zkclient-0.3.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="0.3" rev-constraint-default="0.3" rev-constraint-dynamic="0.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="zkclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39260" time="0" location="/home/manh/.ivy2/cache/com.101tec/zkclient/srcs/zkclient-0.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/101tec/zkclient/0.3/zkclient-0.3-sources.jar"/>
+					</artifact>
+					<artifact name="zkclient" type="jar" ext="jar" status="no" details="" size="64009" time="0" location="/home/manh/.ivy2/cache/com.101tec/zkclient/jars/zkclient-0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.3/zkclient-0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hbase" name="hbase-client">
+			<revision name="1.1.0.1" status="release" pubdate="20150518044700" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<metadata-artifact status="successful" details="" size="12084" time="1500" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-client/ivy-1.1.0.1.xml" searched="true" original-local-location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-client/ivy-1.1.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hbase/hbase-client/1.1.0.1/hbase-client-1.1.0.1.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.1.0.1" rev-constraint-default="1.1.0.1" rev-constraint-dynamic="1.1.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hbase-client" type="jar" ext="jar" status="no" details="" size="1239803" time="0" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-client/jars/hbase-client-1.1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.1.0.1/hbase-client-1.1.0.1.jar"/>
+					</artifact>
+					<artifact name="hbase-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="866509" time="0" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-client/srcs/hbase-client-1.1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/hbase/hbase-client/1.1.0.1/hbase-client-1.1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jruby.joni" name="joni">
+			<revision name="2.1.2" status="release" pubdate="20140828234203" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3463" time="0" location="/home/manh/.ivy2/cache/org.jruby.joni/joni/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jruby/joni/joni/2.1.2/joni-2.1.2.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joni" type="jar" ext="jar" status="no" details="" size="187292" time="0" location="/home/manh/.ivy2/cache/org.jruby.joni/joni/jars/joni-2.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jruby/joni/joni/2.1.2/joni-2.1.2.jar"/>
+					</artifact>
+					<artifact name="joni" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="163460" time="0" location="/home/manh/.ivy2/cache/org.jruby.joni/joni/srcs/joni-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jruby/joni/joni/2.1.2/joni-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jruby.jcodings" name="jcodings">
+			<revision name="1.0.8" status="release" pubdate="20120516071324" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2745" time="0" location="/home/manh/.ivy2/cache/org.jruby.jcodings/jcodings/ivy-1.0.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/1.0.8/jcodings-1.0.8.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.0.8" rev-constraint-default="1.0.8" rev-constraint-dynamic="1.0.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jcodings" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1261665" time="0" location="/home/manh/.ivy2/cache/org.jruby.jcodings/jcodings/srcs/jcodings-1.0.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jruby/jcodings/jcodings/1.0.8/jcodings-1.0.8-sources.jar"/>
+					</artifact>
+					<artifact name="jcodings" type="jar" ext="jar" status="no" details="" size="1291164" time="0" location="/home/manh/.ivy2/cache/org.jruby.jcodings/jcodings/jars/jcodings-1.0.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/1.0.8/jcodings-1.0.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715100750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/home/manh/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="548251" time="0" location="/home/manh/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="780664" time="0" location="/home/manh/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715100730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2438" time="0" location="/home/manh/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="232248" time="0" location="/home/manh/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar"/>
+					</artifact>
+					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240367" time="0" location="/home/manh/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.zookeeper" name="zookeeper">
+			<revision name="3.4.6" status="release" pubdate="20140224001855" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
+				<metadata-artifact status="no" details="" size="4226" time="0" location="/home/manh/.ivy2/cache/org.apache.zookeeper/zookeeper/ivy-3.4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="3.4.6" rev-constraint-default="3.4.6" rev-constraint-dynamic="3.4.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="zookeeper" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="554612" time="0" location="/home/manh/.ivy2/cache/org.apache.zookeeper/zookeeper/srcs/zookeeper-3.4.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar"/>
+					</artifact>
+					<artifact name="zookeeper" type="jar" ext="jar" status="no" details="" size="792964" time="0" location="/home/manh/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.6.1" status="release" pubdate="20100706033004" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<metadata-artifact status="no" details="" size="4321" time="0" location="/home/manh/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9549" time="0" location="/home/manh/.ivy2/cache/org.slf4j/slf4j-log4j12/srcs/slf4j-log4j12-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="9753" time="0" location="/home/manh/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-all">
+			<revision name="4.0.23.Final" status="release" pubdate="20140816010640" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<metadata-artifact status="no" details="" size="15883" time="0" location="/home/manh/.ivy2/cache/io.netty/netty-all/ivy-4.0.23.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="4.0.23.Final" rev-constraint-default="4.0.23.Final" rev-constraint-dynamic="4.0.23.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-all" type="jar" ext="jar" status="no" details="" size="1779991" time="0" location="/home/manh/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.0.23.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar"/>
+					</artifact>
+					<artifact name="netty-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1442971" time="0" location="/home/manh/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.0.23.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hbase" name="hbase-common">
+			<revision name="1.1.0.1" status="release" pubdate="20150518044600" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+				<metadata-artifact status="successful" details="" size="14195" time="818" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-common/ivy-1.1.0.1.xml" searched="true" original-local-location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-common/ivy-1.1.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hbase/hbase-common/1.1.0.1/hbase-common-1.1.0.1.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.1.0.1" rev-constraint-default="1.1.0.1" rev-constraint-dynamic="1.1.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hbase-common" type="jar" ext="jar" status="no" details="" size="523283" time="0" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-common/jars/hbase-common-1.1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/1.1.0.1/hbase-common-1.1.0.1.jar"/>
+					</artifact>
+					<artifact name="hbase-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="429487" time="0" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-common/srcs/hbase-common-1.1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/hbase/hbase-common/1.1.0.1/hbase-common-1.1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty-util">
+			<revision name="6.1.26" status="release" pubdate="20101111043810" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<metadata-artifact status="no" details="" size="7156" time="0" location="/home/manh/.ivy2/cache/org.mortbay.jetty/jetty-util/ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jetty-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123338" time="0" location="/home/manh/.ivy2/cache/org.mortbay.jetty/jetty-util/srcs/jetty-util-6.1.26-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar"/>
+					</artifact>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="177131" time="0" location="/home/manh/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.26.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415080924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
+				<metadata-artifact status="no" details="" size="4590" time="0" location="/home/manh/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="/home/manh/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="641582" time="0" location="/home/manh/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110117052147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<metadata-artifact status="no" details="" size="6396" time="0" location="/home/manh/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="/home/manh/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="/home/manh/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.9" status="release" pubdate="20131221105739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<metadata-artifact status="no" details="" size="9856" time="0" location="/home/manh/.ivy2/cache/commons-codec/commons-codec/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="263965" time="0" location="/home/manh/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278370" time="0" location="/home/manh/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.9-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hbase" name="hbase-protocol">
+			<revision name="1.1.0.1" status="release" pubdate="20150518044600" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<metadata-artifact status="successful" details="" size="8225" time="779" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-protocol/ivy-1.1.0.1.xml" searched="true" original-local-location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-protocol/ivy-1.1.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hbase/hbase-protocol/1.1.0.1/hbase-protocol-1.1.0.1.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.1.0.1" rev-constraint-default="1.1.0.1" rev-constraint-dynamic="1.1.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hbase-protocol" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="828214" time="0" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-protocol/srcs/hbase-protocol-1.1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/hbase/hbase-protocol/1.1.0.1/hbase-protocol-1.1.0.1-sources.jar"/>
+					</artifact>
+					<artifact name="hbase-protocol" type="jar" ext="jar" status="no" details="" size="4200420" time="0" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-protocol/jars/hbase-protocol-1.1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/1.1.0.1/hbase-protocol-1.1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140706011228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<metadata-artifact status="no" details="" size="11382" time="0" location="/home/manh/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="/home/manh/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+					</artifact>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="61829" time="0" location="/home/manh/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hbase" name="hbase-annotations">
+			<revision name="1.1.0.1" status="release" pubdate="20150518043800" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<metadata-artifact status="successful" details="" size="1707" time="792" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-annotations/ivy-1.1.0.1.xml" searched="true" original-local-location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-annotations/ivy-1.1.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hbase/hbase-annotations/1.1.0.1/hbase-annotations-1.1.0.1.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.1.0.1" rev-constraint-default="1.1.0.1" rev-constraint-dynamic="1.1.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hbase-annotations" type="jar" ext="jar" status="no" details="" size="20772" time="0" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-annotations/jars/hbase-annotations-1.1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-annotations/1.1.0.1/hbase-annotations-1.1.0.1.jar"/>
+					</artifact>
+					<artifact name="hbase-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14646" time="0" location="/home/manh/.ivy2/cache/org.apache.hbase/hbase-annotations/srcs/hbase-annotations-1.1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/hbase/hbase-annotations/1.1.0.1/hbase-annotations-1.1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.stephenc.findbugs" name="findbugs-annotations">
+			<revision name="1.3.9-1" status="release" pubdate="20110420182134" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://stephenc.github.com/findbugs-annotations" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3495" time="0" location="/home/manh/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/ivy-1.3.9-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.3.9-1" rev-constraint-default="1.3.9-1" rev-constraint-dynamic="1.3.9-1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="findbugs-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21566" time="0" location="/home/manh/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/srcs/findbugs-annotations-1.3.9-1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1-sources.jar"/>
+					</artifact>
+					<artifact name="findbugs-annotations" type="jar" ext="jar" status="no" details="" size="15322" time="0" location="/home/manh/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/jars/findbugs-annotations-1.3.9-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.datastax.spark" name="spark-cassandra-connector_2.10">
+			<revision name="1.4.0" status="release" pubdate="20150918014401" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/spark-cassandra-connector" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="9404" time="0" location="/home/manh/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.10/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/datastax/spark/spark-cassandra-connector_2.10/1.4.0/spark-cassandra-connector_2.10-1.4.0.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spark-cassandra-connector_2.10" type="jar" ext="jar" status="no" details="" size="2243197" time="0" location="/home/manh/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.10/jars/spark-cassandra-connector_2.10-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/datastax/spark/spark-cassandra-connector_2.10/1.4.0/spark-cassandra-connector_2.10-1.4.0.jar"/>
+					</artifact>
+					<artifact name="spark-cassandra-connector_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="183707" time="0" location="/home/manh/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.10/srcs/spark-cassandra-connector_2.10-1.4.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/datastax/spark/spark-cassandra-connector_2.10/1.4.0/spark-cassandra-connector_2.10-1.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.5" status="release" pubdate="20150227085445" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2835" time="0" location="/home/manh/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3206179" time="0" location="/home/manh/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="435463" time="0" location="/home/manh/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.10.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="jsr166e">
+			<revision name="1.1.0" status="release" pubdate="20140215005520" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/twitter/jsr166e" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="CC0 1.0 Universal" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2704" time="0" location="/home/manh/.ivy2/cache/com.twitter/jsr166e/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jsr166e" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73410" time="0" location="/home/manh/.ivy2/cache/com.twitter/jsr166e/srcs/jsr166e-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0-sources.jar"/>
+					</artifact>
+					<artifact name="jsr166e" type="jar" ext="jar" status="no" details="" size="62226" time="0" location="/home/manh/.ivy2/cache/com.twitter/jsr166e/jars/jsr166e-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.3" status="release" pubdate="20130817003125" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6376" time="0" location="/home/manh/.ivy2/cache/joda-time/joda-time/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="718287" time="0" location="/home/manh/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.3/joda-time-2.3-sources.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="581571" time="0" location="/home/manh/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.2" status="release" pubdate="20111028025117" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3120" time="0" location="/home/manh/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="38460" time="0" location="/home/manh/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19105" time="0" location="/home/manh/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.3.2" status="release" pubdate="20140406192129" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<metadata-artifact status="no" details="" size="10428" time="0" location="/home/manh/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="412739" time="0" location="/home/manh/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
+					</artifact>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="470961" time="0" location="/home/manh/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.3.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.datastax.cassandra" name="cassandra-driver-core">
+			<revision name="2.1.5" status="release" pubdate="20150316211216" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5250" time="0" location="/home/manh/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/ivy-2.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/2.1.5/cassandra-driver-core-2.1.5.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cassandra-driver-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="413093" time="0" location="/home/manh/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/srcs/cassandra-driver-core-2.1.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/datastax/cassandra/cassandra-driver-core/2.1.5/cassandra-driver-core-2.1.5-sources.jar"/>
+					</artifact>
+					<artifact name="cassandra-driver-core" type="jar" ext="jar" status="no" details="" size="726778" time="0" location="/home/manh/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/jars/cassandra-driver-core-2.1.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/datastax/cassandra/cassandra-driver-core/2.1.5/cassandra-driver-core-2.1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526164339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3544" time="0" location="/home/manh/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="log4j" type="jar" ext="jar" status="no" details="" size="489884" time="0" location="/home/manh/.ivy2/cache/log4j/log4j/jars/log4j-1.2.17.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="/home/manh/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.17-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.0.5" status="release" pubdate="20130517083557" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/xerial/snappy-java/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3868" time="0" location="/home/manh/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="28089" time="0" location="/home/manh/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5-sources.jar"/>
+					</artifact>
+					<artifact name="snappy-java" type="jar" ext="jar" status="no" details="" size="1251514" time="0" location="/home/manh/.ivy2/cache/org.xerial.snappy/snappy-java/jars/snappy-java-1.0.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="14.0.1" status="release" pubdate="20130315065719" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<metadata-artifact status="no" details="" size="3663" time="0" location="/home/manh/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2189117" time="0" location="/home/manh/.ivy2/cache/com.google.guava/guava/jars/guava-14.0.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/14.0.1/guava-14.0.1.jar"/>
+					</artifact>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1170076" time="0" location="/home/manh/.ivy2/cache/com.google.guava/guava/srcs/guava-14.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.9.0.Final" status="release" pubdate="20131222175540" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6521" time="0" location="/home/manh/.ivy2/cache/io.netty/netty/ivy-3.9.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.9.0.Final/netty-3.9.0.Final.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="3.9.0.Final" rev-constraint-default="3.9.0.Final" rev-constraint-dynamic="3.9.0.Final" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1081647" time="0" location="/home/manh/.ivy2/cache/io.netty/netty/srcs/netty-3.9.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.9.0.Final/netty-3.9.0.Final-sources.jar"/>
+					</artifact>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1231993" time="0" location="/home/manh/.ivy2/cache/io.netty/netty/jars/netty-3.9.0.Final.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.9.0.Final/netty-3.9.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20130308071811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3013" time="0" location="/home/manh/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="276990" time="0" location="/home/manh/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="533455" time="0" location="/home/manh/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.cassandra" name="cassandra-clientutil">
+			<revision name="2.1.5" status="release" pubdate="20150427213630" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cassandra.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="17335" time="0" location="/home/manh/.ivy2/cache/org.apache.cassandra/cassandra-clientutil/ivy-2.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/cassandra/cassandra-clientutil/2.1.5/cassandra-clientutil-2.1.5.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cassandra-clientutil" type="jar" ext="jar" status="no" details="" size="74907" time="0" location="/home/manh/.ivy2/cache/org.apache.cassandra/cassandra-clientutil/jars/cassandra-clientutil-2.1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/cassandra/cassandra-clientutil/2.1.5/cassandra-clientutil-2.1.5.jar"/>
+					</artifact>
+					<artifact name="cassandra-clientutil" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37905" time="0" location="/home/manh/.ivy2/cache/org.apache.cassandra/cassandra-clientutil/srcs/cassandra-clientutil-2.1.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/cassandra/cassandra-clientutil/2.1.5/cassandra-clientutil-2.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.codahale.metrics" name="metrics-core">
+			<revision name="3.0.2" status="release" pubdate="20140217073139" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<metadata-artifact status="no" details="" size="4636" time="0" location="/home/manh/.ivy2/cache/com.codahale.metrics/metrics-core/ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43567" time="0" location="/home/manh/.ivy2/cache/com.codahale.metrics/metrics-core/srcs/metrics-core-3.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="metrics-core" type="jar" ext="jar" status="no" details="" size="85448" time="0" location="/home/manh/.ivy2/cache/com.codahale.metrics/metrics-core/jars/metrics-core-3.0.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.5" status="release" pubdate="20130326035215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<metadata-artifact status="no" details="" size="4475" time="0" location="/home/manh/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47186" time="0" location="/home/manh/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26084" time="0" location="/home/manh/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613052206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<metadata-artifact status="no" details="" size="8463" time="0" location="/home/manh/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246635" time="0" location="/home/manh/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/home/manh/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.5" status="release" pubdate="20150227085430" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2669" time="0" location="/home/manh/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="0.1-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.10.5/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7130772" time="0" location="/home/manh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1064274" time="0" location="/home/manh/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="redis.clients" name="jedis">
+			<revision name="2.6.0" status="release" pubdate="20140922032444" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xetorthio/jedis" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="MIT" url="http://github.com/xetorthio/jedis/raw/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3880" time="0" location="/home/manh/.ivy2/cache/redis.clients/jedis/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/redis/clients/jedis/2.6.0/jedis-2.6.0.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jedis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="125258" time="0" location="/home/manh/.ivy2/cache/redis.clients/jedis/srcs/jedis-2.6.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/redis/clients/jedis/2.6.0/jedis-2.6.0-sources.jar"/>
+					</artifact>
+					<artifact name="jedis" type="jar" ext="jar" status="no" details="" size="330422" time="0" location="/home/manh/.ivy2/cache/redis.clients/jedis/jars/jedis-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/redis/clients/jedis/2.6.0/jedis-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-pool2">
+			<revision name="2.0" status="release" pubdate="20131105070831" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-pool/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="9230" time="0" location="/home/manh/.ivy2/cache/org.apache.commons/commons-pool2/ivy-2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.0/commons-pool2-2.0.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-pool2" type="jar" ext="jar" status="no" details="" size="107063" time="0" location="/home/manh/.ivy2/cache/org.apache.commons/commons-pool2/jars/commons-pool2-2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.0/commons-pool2-2.0.jar"/>
+					</artifact>
+					<artifact name="commons-pool2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="113283" time="0" location="/home/manh/.ivy2/cache/org.apache.commons/commons-pool2/srcs/commons-pool2-2.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-pool2/2.0/commons-pool2-2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.11" status="release" pubdate="20121115022147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2771" time="0" location="/home/manh/.ivy2/cache/junit/junit/ivy-4.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="4.11" rev-constraint-default="4.11" rev-constraint-dynamic="4.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="151329" time="0" location="/home/manh/.ivy2/cache/junit/junit/srcs/junit-4.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/junit/junit/4.11/junit-4.11-sources.jar"/>
+					</artifact>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="245039" time="0" location="/home/manh/.ivy2/cache/junit/junit/jars/junit-4.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120710040802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<metadata-artifact status="no" details="" size="2397" time="0" location="/home/manh/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
+				<caller organisation="default" name="audiencetest$sources_2.10" conf="test, compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32624" time="0" location="/home/manh/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+					</artifact>
+					<artifact name="hamcrest-core" type="jar" ext="jar" status="no" details="" size="45024" time="0" location="/home/manh/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

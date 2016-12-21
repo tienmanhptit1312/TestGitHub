@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: HBase - Client
+Implementation-Version: 1.1.0.1
+Implementation-Vendor-Id: org.apache.hbase
+Built-By: apurtell
+Build-Jdk: 1.7.0_79
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: HBase - Client
+Created-By: Apache Maven 3.2.2
+Specification-Version: 1.1.0.1
+Archiver-Version: Plexus Archiver
+
